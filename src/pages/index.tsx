@@ -1,6 +1,4 @@
-
-const Home = () => {
-
+const login = () => {
 
 return (  
 <div class="flex flex-col bg-gray-300">
@@ -9,6 +7,11 @@ return (
    <div class="text-gray-700 text-center bg-gray-200 px-2 py-1 m-1">
     <h1>ログイン</h1>
    </div>
+  
+   <Link href="/user">
+    <a>リンク</a>
+   </Link>
+
 
   <form action="/send-data-here" method="post">
 
@@ -49,6 +52,6 @@ return (
  );
 };
 
-export default Home;
+export default login;
 
 
