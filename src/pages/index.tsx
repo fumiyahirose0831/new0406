@@ -33,7 +33,7 @@ return (
     <div className="text-gray-700 text-center bg-gray-200 px-4 py-2 ">
 
      <button className="bg-red-500 hover:bg-red-700  text-white font-bold py-2 px-4 rounded-full"
-       button onClick={() => Router.push({pathname: '/user', query: {input: input}}) }>ログイン
+       button onClick={() => Router.push({pathname: '/home', query: {input: input}}) }>ログイン
      </button>
      
     </div>
