@@ -2,7 +2,7 @@ import Router from 'next/router'
 
 
 export default function user_show (){
-  console.log('こんにちは')
+  console.log('こんにちは!')
 
 return(
 <>
