@@ -12,7 +12,7 @@ return (
 <main className={styles.main}>
   
 
-  <form action="/send-data-here" method="post">
+  <div>
      <div className="text-gray-700 text-center bg-gray-200 px-4 py-2 ">
       <label className="block text-gray-700 text-sm font-bold mb-2" for="id"></label>
       <input type="text" 
@@ -33,23 +33,16 @@ return (
     <div className="text-gray-700 text-center bg-gray-200 px-4 py-2 ">
 
      <button className="bg-red-500 hover:bg-red-700  text-white font-bold py-2 px-4 rounded-full"
-       button onClick={() => Router.push({pathname: '/home', query: {input: input}}) }>ログイン
+        onClick={() => Router.push({pathname: '/home', query: {input: input}}) }>ログイン
      </button>
      
     </div>
-  </form>
+  </div>
 </main>
-
-
-
 
 <input>
 
 </input>
-
-
-
-
 
 </>
  );
